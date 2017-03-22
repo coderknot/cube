@@ -27,4 +27,8 @@ public class Rectangle {
   public static List<Rectangle> all() {
     return instances;
   }
+
+  public int area() {
+    return mLength * mWidth;
+  }
 }
